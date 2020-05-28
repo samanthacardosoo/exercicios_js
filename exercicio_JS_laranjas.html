@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang-pt-br>
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<script>
+    var laranjas= prompt ("Informe o número de laranjas que Joselito tinha");
+    var vizinhos= prompt ("Informe o número de vizinhos que Joselito tinha");
+    var divisão = Math.floor(laranjas/vizinhos);
+    
+    function dividir () {
+        
+        document.write("Cada vizinho receberá " + divisão + " laranjas.")
+        document.write("<br>");
+    }
+    dividir();
+
+    function sobrar () {
+        var doadas= (divisão*vizinhos);
+        var sobra = (laranjas-doadas);
+        document.write("E sobrará para Joselito " + sobra + " laranjas.")
+    }
+    sobrar()
+
+</script>
+
+</html>
