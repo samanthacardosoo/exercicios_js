@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<meta charset="UTF-8">
+
+<!--Utilize o campo de script abaixo para resolver os problemas propostos!-->
+<script>
+
+       function menu() {
+           var nome = prompt ("Olá, seja bem vindo(a) ao resilialanches! Digite seu nome");
+           document.write ("Olá " + nome + "! O que você deseja beber?<br>");
+           document.write ("Um refrigerante<br>");
+           document.write ("Um suco<br>");
+           document.write ("Ou uma água?<br>");
+       }
+      
+       function opcoes () {
+           var bebida = prompt ("Você deseja um refrigerante, suco ou água?");
+           if (bebida == "refrigerante") {
+           document.write ("Saindo um refri!") 
+       }   else if (bebida == "suco") {
+           document.write ("Saindo um suco fresquinho e natural!")
+       }   else if (bebida == "água") {
+           document.write ("Vou te trazer uma água geladinha, deixa comigo!")
+       }    else {
+            document.write ("Infelizmente não temos esse item no cardápio")
+       }
+    }
+    
+</script>
